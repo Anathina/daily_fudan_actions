@@ -1,6 +1,7 @@
 from git_base import *
 from sys import exit as sys_exit
 import time
+import random
 
 t = 120*random.randint(0,9)
 time.sleep(t)

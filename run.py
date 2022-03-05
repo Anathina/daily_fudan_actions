@@ -1,5 +1,9 @@
 from git_base import *
 from sys import exit as sys_exit
+import time
+
+t = 120*random.randint(0,9)
+time.sleep(t)
 
 daily_fudan_core = r'https://github.com/Limour-dev/daily_fudan_core.git'
 daily_fudan_actions = r'https://github.com/Limour-dev/daily_fudan_actions.git'
